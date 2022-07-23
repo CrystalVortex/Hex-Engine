@@ -12,3 +12,6 @@ Read the wiki (https://github.com/nobody1256/Hex-Engine/wiki) for information an
 + added 2 new API commands and changed wiki 7/23/2022
 + Updated wiki and readme 7/23/2022
 + added some of the engine files 7/23/2022
+
+# Building from source
+```coming soon
