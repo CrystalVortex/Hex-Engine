@@ -106,3 +106,9 @@ def get_file(link, saveto):
    wget.download(link, saveto)
    print("Download Complete...")
 
+def deletefile(filename):
+   os.remove(filename)
+   
+def deletefolder(folderlocation):
+   os.remove(folderlocation)
+
