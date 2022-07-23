@@ -5,4 +5,4 @@ A Simple game engine
 Coming soon!
 
 # Docs:
-Read wiki
+Read [wiki]https://github.com/nobody1256/Hex-Engine/wiki
