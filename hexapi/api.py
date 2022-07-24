@@ -36,6 +36,8 @@ import logging
 
 import wget
 
+from tkinter import *
+
 
 
 def unknown_error():
@@ -104,7 +106,7 @@ def optionalmodules():
 
 def get_file(link, saveto):
    wget.download(link, saveto)
-   print("Download Complete...")
+   
 
 def deletefile(filename):
    os.remove(filename)
@@ -112,3 +114,76 @@ def deletefile(filename):
 def deletefolder(folderlocation):
    os.remove(folderlocation)
 
+def logo_splash_hex():
+   
+   # Create object
+   splash_root = Tk()
+      
+   # Adjust size
+   splash_root.geometry("500x500")
+   
+   splash_root.wm_attributes('-fullscreen', 'True')
+   
+   # Set Label
+   splash_label = Label(splash_root,text="Hex Engine: Loading...",font=18)
+   splash_label.pack()
+   
+   # main window function
+   def main(): 
+      # destroy splash window
+      splash_root.destroy()
+      
+   
+   # Set Interval
+   splash_root.after(2000,main)
+   
+   # Execute tkinter
+   mainloop()
+
+def logo_splash_custom(text):
+   # Create object
+   splash_root = Tk()
+      
+   # Adjust size
+   splash_root.geometry("500x500")
+   
+   # Set Label
+   splash_label = Label(splash_root,text=text,font=18)
+   splash_label.pack()
+   
+   # main window function
+   def main(): 
+      # destroy splash window
+      splash_root.destroy()
+      
+   
+   # Set Interval
+   splash_root.after(2000,main)
+   
+   # Execute tkinter
+   mainloop()
+   
+def logo_splash_custom_fullscreen(text):
+   # Create object
+   splash_root = Tk()
+      
+   # Adjust size
+   splash_root.geometry("500x500")
+   
+   splash_root.wm_attributes('-fullscreen', 'True')
+   
+   # Set Label
+   splash_label = Label(splash_root,text=text,font=18)
+   splash_label.pack()
+   
+   # main window function
+   def main(): 
+      # destroy splash window
+      splash_root.destroy()
+      
+   
+   # Set Interval
+   splash_root.after(2000,main)
+   
+   # Execute tkinter
+   mainloop()
