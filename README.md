@@ -8,7 +8,7 @@ Coming soon!
 Read the wiki (https://github.com/nobody1256/Hex-Engine/wiki) for information and help!
 
 # Latest changes: 
-+ Added new page in wiki "Using Game Assets"
++ Added new page in wiki "Using Game Assets" 7/24/2022
 + Added new sub folder /engine/GameAssets 7/24/2022
 + Changed the folder name "packager" ====> "HexPackager" 7/24/2022
 + Added 3 new API commands 7/24/2022
