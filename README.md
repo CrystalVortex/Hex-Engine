@@ -8,6 +8,7 @@ Coming soon! (a few weeks)
 Read the wiki (https://github.com/nobody1256/Hex-Engine/wiki) for information and help!
 
 # Latest changes: 
++ Updated wiki 2/26/2022
 + Added a few usable textures 2/26/2022
 + Added new page in wiki "Using Game Assets" 7/24/2022
 + Added new sub folder /engine/GameAssets 7/24/2022
