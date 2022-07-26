@@ -24,4 +24,5 @@ Read the wiki (https://github.com/nobody1256/Hex-Engine/wiki) for information an
 
 # Building from source
 Here you can build Hex Engine from the source code.
-```coming soon
+```
+Coming Soon
