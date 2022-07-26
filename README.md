@@ -4,6 +4,11 @@ Hex Engine is a simple game engine made for making simple games with simple grap
 # Eta:
 Coming soon! (a few weeks)
 
+# What you can make with Hex Engine:
++ Python games using ursina or pygame
++ Javascript games using three.js
++ c++ games (in the very far future)
+
 # Docs:
 Read the wiki (https://github.com/nobody1256/Hex-Engine/wiki) for information and help!
 
