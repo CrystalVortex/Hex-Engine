@@ -23,4 +23,5 @@ Read the wiki (https://github.com/nobody1256/Hex-Engine/wiki) for information an
 + added some of the engine files 7/23/2022
 
 # Building from source
-```coming soon```
+Here you can build Hex Engine from the source code.
+```coming soon
