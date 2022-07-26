@@ -1,5 +1,5 @@
 # Hex-Engine
-A Simple game engine 
+Hex Engine is a simple game engine made for making simple games and graphics. It also has a simple-to-use interface
 
 # Eta:
 Coming soon! (a few weeks)
