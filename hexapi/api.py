@@ -38,6 +38,11 @@ import wget
 
 from tkinter import *
 
+logger = logging.getLogger('game')
+
+handler = logging.FileHandler('game.log')
+
+logger.addHandler(handler)
 
 
 def unknown_error():
@@ -89,19 +94,15 @@ def optionalmodules():
    import os
    import shutil
    import time
-   import logging
    import subprocess
    import os.path
-   import glob
-   import re
    import sys
    import time
    from pathlib import Path
    import requests
    import tkinter.messagebox
    import platform
-   import logging
-   
+
 
 
 def get_file(link, saveto):
@@ -116,74 +117,79 @@ def deletefolder(folderlocation):
 
 def logo_splash_hex():
    
-   
+   # Create object
    splash_root = Tk()
       
-   
+   # Adjust size
    splash_root.geometry("500x500")
    
    splash_root.wm_attributes('-fullscreen', 'True')
    
-   
+   # Set Label
    splash_label = Label(splash_root,text="Hex Engine: Loading...",font=18)
    splash_label.pack()
    
-   
+   # main window function
    def main(): 
-      
+      # destroy splash window
       splash_root.destroy()
       
    
-   
+   # Set Interval
    splash_root.after(2000,main)
    
-   
+   # Execute tkinter
    mainloop()
 
 def logo_splash_custom(text):
-
+   # Create object
    splash_root = Tk()
       
-
+   # Adjust size
    splash_root.geometry("500x500")
    
-
+   # Set Label
    splash_label = Label(splash_root,text=text,font=18)
    splash_label.pack()
    
-
+   # main window function
    def main(): 
-
+      # destroy splash window
       splash_root.destroy()
       
    
-
+   # Set Interval
    splash_root.after(2000,main)
    
-
+   # Execute tkinter
    mainloop()
    
 def logo_splash_custom_fullscreen(text):
-
+   # Create object
    splash_root = Tk()
       
-
+   # Adjust size
    splash_root.geometry("500x500")
    
    splash_root.wm_attributes('-fullscreen', 'True')
    
-
+   # Set Label
    splash_label = Label(splash_root,text=text,font=18)
    splash_label.pack()
    
-
+   # main window function
    def main(): 
-      
+      # destroy splash window
       splash_root.destroy()
       
    
-   
+   # Set Interval
    splash_root.after(2000,main)
    
-   
+   # Execute tkinter
    mainloop()
+   
+
+def log(msg):
+   logger.warning("[LOG]: " + msg)
+   
