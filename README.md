@@ -12,7 +12,8 @@ Coming soon! (a few weeks)
 # Docs:
 Read the wiki (https://github.com/nobody1256/Hex-Engine/wiki) for information and help!
 
-# Latest changes: 
+# Latest changes:
++ Added 1 new API command 8/9/2022
 + added a file to subfolder /engine/assetmanager/assetmanager.py
 + Added new sub folder /engine/assetmanager/
 + Updated wiki 2/26/2022
