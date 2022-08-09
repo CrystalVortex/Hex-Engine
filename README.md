@@ -5,7 +5,7 @@ Hex Engine is a simple game engine made for making simple games with simple grap
 Coming soon! (a few weeks)
 
 # What you can make with Hex Engine:
-+ Python games using ursina or pygame
++ Python games using Ursina, Pygame or Panda3d
 + Javascript games using three.js
 + c++ games (in the very far future)
 
@@ -13,6 +13,8 @@ Coming soon! (a few weeks)
 Read the wiki (https://github.com/nobody1256/Hex-Engine/wiki) for information and help!
 
 # Latest changes:
++ Added new section to wiki "Logging" 8/9/2022
++ Added more info to the readme 8/9/2022
 + Added 1 new API command 8/9/2022
 + added a file to subfolder /engine/assetmanager/assetmanager.py
 + Added new sub folder /engine/assetmanager/
