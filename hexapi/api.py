@@ -44,6 +44,12 @@ handler = logging.FileHandler('game.log')
 
 logger.addHandler(handler)
 
+def low_storage_crash():
+   tkinter.messagebox.showwarning('Hex Engine:error','You have low storage space! Try to free up some space and try again.')
+   exit()
+
+def low_storage_warn():
+   tkinter.messagebox.showwarning('Hex Engine:Warn','You have low storage space! Try to free up some space.')
 
 def unknown_error():
    tkinter.messagebox.showwarning('Hex Engine:Error','An unknown error occurred!')
@@ -61,6 +67,8 @@ def confirm():
 
 def close():
    exit()
+
+
 
 def console_execute_bat():
    subprocess.Popen('main.bat', shell=True)
@@ -89,7 +97,10 @@ def make_folder_existsfine(foldername):
 
 def make_folder_exists_not_fine(foldername):
    Path(foldername).mkdir(parents=True, exist_ok=False)
-   
+
+
+
+
 def optionalmodules():
    import os
    import shutil
@@ -114,6 +125,9 @@ def deletefile(filename):
    
 def deletefolder(folderlocation):
    os.remove(folderlocation)
+
+
+
 
 def logo_splash_hex():
    
@@ -189,6 +203,9 @@ def logo_splash_custom_fullscreen(text):
    # Execute tkinter
    mainloop()
    
+
+
+
 
 def log(msg):
    logger.warning("[LOG]: " + msg)
