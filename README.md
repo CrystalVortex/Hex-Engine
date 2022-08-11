@@ -13,6 +13,7 @@ Coming soon! (a few weeks)
 Read the wiki (https://github.com/nobody1256/Hex-Engine/wiki) for information and help!
 
 # Latest changes:
++ Added 1 new API command 8/11/2022
 + Added new section to wiki "Logging" 8/9/2022
 + Added more info to the readme 8/9/2022
 + Added 1 new API command 8/9/2022
