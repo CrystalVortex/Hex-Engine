@@ -2,7 +2,7 @@
 Hex Engine is a simple game engine made for making simple games with simple graphics. It also has a simple-to-use interface and a handy Python API.
 
 # Eta:
-Coming soon! (a few weeks)
+There is currently some problems that may or not stop this from working!
 
 # What you can make with Hex Engine:
 + Python games using Ursina, Pygame or Panda3d
